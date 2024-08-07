@@ -49,5 +49,4 @@ $config = parse_ini_file(__DIR__.'/../../config.ini', true);
 $test = new DBConnection($config);
 $res=$test->query('select * from example where col = $1', array('3'));
 var_dump($test->getNumRows($res));
-// var_dump($res);
-// var_dump($test->select('example'));
+

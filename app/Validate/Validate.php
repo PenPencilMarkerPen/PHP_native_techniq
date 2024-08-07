@@ -36,5 +36,3 @@ class Validate implements ValidateInterface {
     }
 }
 
-// $test = new Validate();
-// var_dump($test->validatePassword('1234FWq*'));
